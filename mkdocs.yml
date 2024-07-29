@@ -1,9 +1,9 @@
-site_name: Mkdocs Template
-site_description: A website template for using mkdocs
-site_author: Qiusheng Wu
-site_url: https://giswqs.github.io/mkdocs-template
+site_name: Rosa Trancoso Notebook's Share
+site_description: My notebooks to share with the world
+site_author: Rosa Trancoso
+site_url: https://rosatrancoso.github.io/notebook-share
 
-repo_url: https://github.com/giswqs/mkdocs-template
+repo_url: https://github.com/rosatrancoso/notebook-share
 
 copyright: "Copyright &copy; 2022 - 2023 Qiusheng Wu"
 
@@ -64,6 +64,6 @@ nav:
   - Chapter 2:
       - chapter_02/colorbar.ipynb
       - chapter_02/heatmap.ipynb
-  - Blog: https://blog.gishub.org
-  - YouTube Channel: https://youtube.com/@giswqs
-  - Report Issues: https://github.com/giswqs/mkdocs-template/issues
+  #- Blog: https://blog.gishub.org
+  #- YouTube Channel: https://youtube.com/@giswqs
+  - Report Issues: https://github.com/rosatrancoso/notebook-share/issues
