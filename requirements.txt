@@ -5,3 +5,7 @@ leafmap
 cartopy
 scipy
 geopandas
+xarray
+xarray_leaflet
+rioxarray
+rasterio

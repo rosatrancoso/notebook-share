@@ -42,15 +42,16 @@ plugins:
       execute: True
       allow_errors: false
       ignore: []
-      #"chapter_03/folium_ipyleaflet_image_overlay.ipynb",
-              #  "chapter_03/plot_dem_leaflet_image_overlay.ipynb",
-              #  "chapter_03/plot_lognorm_colorbar.ipynb",
-              #  "chapter_03/test_xarray_leaflet_simple.ipynb"]
-      #execute_ignore: ["chapter_03/*.ipynb"]
-      execute_ignore: ["chapter_03/folium_ipyleaflet_image_overlay.ipynb",
-                      "chapter_03/plot_dem_leaflet_image_overlay.ipynb",
-                      "chapter_03/plot_lognorm_colorbar.ipynb",
-                      "chapter_03/test_xarray_leaflet_simple.ipynb"]
+      execute_ignore: [
+        # "chapter_01/*ipynb",
+        # "chapter_02/*ipynb",
+        # "chapter_03/folium_ipyleaflet_image_overlay.ipynb",
+        # "chapter_03/plot_cartopy_img_tiles_examples.ipynb",
+        # "chapter_03/plot_coastlines.ipynb",
+        # "chapter_03/plot_dem_leaflet_image_overlay.ipynb",
+        # "chapter_03/plot_lognorm_colorbar.ipynb",
+        # "chapter_03/test_xarray_leaflet_simple.ipynb",
+        ]
 
 markdown_extensions:
   - attr_list
@@ -73,8 +74,12 @@ nav:
       - chapter_02/colorbar.ipynb
       - chapter_02/heatmap.ipynb
   - Chapter 3:
+      - chapter_03/folium_ipyleaflet_image_overlay.ipynb
       - chapter_03/plot_cartopy_img_tiles_examples.ipynb
       - chapter_03/plot_coastlines.ipynb
+      - chapter_03/plot_dem_leaflet_image_overlay.ipynb
+      - chapter_03/plot_lognorm_colorbar.ipynb
+      - chapter_03/test_xarray_leaflet_simple.ipynb
   #- Blog: https://blog.gishub.org
   #- YouTube Channel: https://youtube.com/@giswqs
   - Report Issues: https://github.com/rosatrancoso/notebook-share/issues

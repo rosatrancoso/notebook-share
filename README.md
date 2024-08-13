@@ -26,5 +26,3 @@ We still need requirements.txt for the Github Actions pip installation, but loca
     mkdocs serve
     mkdocs gh-deploy
 
-
-mkdocs serve will build all the notebooks that have `execute: True`
