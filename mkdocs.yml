@@ -48,7 +48,7 @@ plugins:
         # "chapter_03/folium_ipyleaflet_image_overlay.ipynb",
         # "chapter_03/plot_cartopy_img_tiles_examples.ipynb",
         # "chapter_03/plot_coastlines.ipynb",
-        # "chapter_03/plot_dem_leaflet_image_overlay.ipynb",
+        "chapter_03/plot_dem_leaflet_image_overlay.ipynb",
         # "chapter_03/plot_lognorm_colorbar.ipynb",
         "chapter_03/test_xarray_leaflet_simple.ipynb",
         ]
