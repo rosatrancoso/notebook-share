@@ -13,3 +13,18 @@ Steps to use this template:
 - Commit the changes using Git and push changes to GitHub.
 - Enable GitHub Pages through GitHub Settings - Pages.
 - Check out the website at https://username.github.io/repo-name.
+
+
+## Run locally
+
+https://www.mkdocs.org/getting-started/
+
+We still need requirements.txt for the Github Actions pip installation, but locally we can use with conda+pip
+
+    conda env create -n notebook-share --file requirements.yml
+    conda activate notebook-share
+    mkdocs serve
+    mkdocs gh-deploy
+
+
+mkdocs serve will build all the notebooks that have `execute: True`

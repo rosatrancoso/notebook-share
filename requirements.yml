@@ -1,0 +1,12 @@
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+ - mkdocs
+ - mkdocs-material
+ - mkdocstrings
+ - mkdocs-git-revision-date-plugin
+ - mkdocs-jupyter
+ - pip
+ - pip:
+   - --requirement requirements.txt

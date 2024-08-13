@@ -3,3 +3,5 @@ geemap
 geopandas
 leafmap
 cartopy
+scipy
+geopandas

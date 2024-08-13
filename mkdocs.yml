@@ -41,8 +41,16 @@ plugins:
       ignore_h1_titles: True
       execute: True
       allow_errors: false
-      ignore: ["name.ipynb"]
-      execute_ignore: ["path/*.ipynb"]
+      ignore: []
+      #"chapter_03/folium_ipyleaflet_image_overlay.ipynb",
+              #  "chapter_03/plot_dem_leaflet_image_overlay.ipynb",
+              #  "chapter_03/plot_lognorm_colorbar.ipynb",
+              #  "chapter_03/test_xarray_leaflet_simple.ipynb"]
+      #execute_ignore: ["chapter_03/*.ipynb"]
+      execute_ignore: ["chapter_03/folium_ipyleaflet_image_overlay.ipynb",
+                      "chapter_03/plot_dem_leaflet_image_overlay.ipynb",
+                      "chapter_03/plot_lognorm_colorbar.ipynb",
+                      "chapter_03/test_xarray_leaflet_simple.ipynb"]
 
 markdown_extensions:
   - attr_list
@@ -65,6 +73,7 @@ nav:
       - chapter_02/colorbar.ipynb
       - chapter_02/heatmap.ipynb
   - Chapter 3:
+      - chapter_03/plot_cartopy_img_tiles_examples.ipynb
       - chapter_03/plot_coastlines.ipynb
   #- Blog: https://blog.gishub.org
   #- YouTube Channel: https://youtube.com/@giswqs
