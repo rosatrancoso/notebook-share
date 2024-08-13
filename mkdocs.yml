@@ -64,6 +64,8 @@ nav:
   - Chapter 2:
       - chapter_02/colorbar.ipynb
       - chapter_02/heatmap.ipynb
+  - Chapter 3:
+      - chapter_03/plot_coastlines.ipynb
   #- Blog: https://blog.gishub.org
   #- YouTube Channel: https://youtube.com/@giswqs
   - Report Issues: https://github.com/rosatrancoso/notebook-share/issues
