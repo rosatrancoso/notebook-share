@@ -4,8 +4,8 @@ geopandas
 leafmap
 cartopy
 scipy
-geopandas
 xarray
+rasterio
 # xarray_leaflet
 # rioxarray
 # rasterio
