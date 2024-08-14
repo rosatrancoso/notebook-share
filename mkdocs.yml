@@ -40,7 +40,7 @@ plugins:
       include_source: True
       ignore_h1_titles: True
       execute: True
-      allow_errors: false
+      allow_errors: True
       ignore: []
       execute_ignore: [
         # "chapter_01/*ipynb",
@@ -48,9 +48,9 @@ plugins:
         # "chapter_03/folium_ipyleaflet_image_overlay.ipynb",
         # "chapter_03/plot_cartopy_img_tiles_examples.ipynb",
         # "chapter_03/plot_coastlines.ipynb",
-        "chapter_03/plot_dem_leaflet_image_overlay.ipynb",
+        # "chapter_03/plot_dem_leaflet_image_overlay.ipynb",
         # "chapter_03/plot_lognorm_colorbar.ipynb",
-        "chapter_03/test_xarray_leaflet_simple.ipynb",
+        # "chapter_03/test_xarray_leaflet_simple.ipynb",
         ]
 
 markdown_extensions:
@@ -67,19 +67,19 @@ nav:
   - Home: index.md
   - Notebook:
       - template.ipynb
-  - Chapter 1:
-      - chapter_01/intro.ipynb
-      - chapter_01/basemaps.ipynb
-  - Chapter 2:
-      - chapter_02/colorbar.ipynb
-      - chapter_02/heatmap.ipynb
-  - Chapter 3:
-      - chapter_03/folium_ipyleaflet_image_overlay.ipynb
-      - chapter_03/plot_cartopy_img_tiles_examples.ipynb
-      - chapter_03/plot_coastlines.ipynb
-      - chapter_03/plot_dem_leaflet_image_overlay.ipynb
-      - chapter_03/plot_lognorm_colorbar.ipynb
-      - chapter_03/test_xarray_leaflet_simple.ipynb
+  - Leafmap:
+      - leafmap/01_intro.ipynb
+      - leafmap/02_basemaps.ipynb
+      - leafmap/03_heatmap.ipynb
+      - leafmap/04_wmslayer_colorbar.ipynb
+      - leafmap/05_load_raster.ipynb
+  - My Experiments:
+      - experiments/folium_ipyleaflet_image_overlay.ipynb
+      - experiments/plot_cartopy_img_tiles_examples.ipynb
+      - experiments/plot_coastlines.ipynb
+      - experiments/plot_dem_leaflet_image_overlay.ipynb
+      - experiments/plot_lognorm_colorbar.ipynb
+      - experiments/test_xarray_leaflet_simple.ipynb
   #- Blog: https://blog.gishub.org
   #- YouTube Channel: https://youtube.com/@giswqs
   - Report Issues: https://github.com/rosatrancoso/notebook-share/issues
