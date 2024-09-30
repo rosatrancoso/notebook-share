@@ -3,61 +3,76 @@
     <url>
          <loc>https://rosatrancoso.github.io/notebook-share/</loc>
          <lastmod>2024-09-30</lastmod>
+         <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://rosatrancoso.github.io/notebook-share/template/</loc>
          <lastmod>2024-09-30</lastmod>
+         <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://rosatrancoso.github.io/notebook-share/experiments/plot_cartopy_img_tiles_examples/</loc>
          <lastmod>2024-09-30</lastmod>
+         <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://rosatrancoso.github.io/notebook-share/experiments/plot_coastlines/</loc>
          <lastmod>2024-09-30</lastmod>
+         <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://rosatrancoso.github.io/notebook-share/experiments/plot_colorbar_categories/</loc>
          <lastmod>2024-09-30</lastmod>
+         <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://rosatrancoso.github.io/notebook-share/experiments/plot_colorbar_common/</loc>
          <lastmod>2024-09-30</lastmod>
+         <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://rosatrancoso.github.io/notebook-share/experiments/plot_colorbar_lognorm/</loc>
          <lastmod>2024-09-30</lastmod>
+         <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://rosatrancoso.github.io/notebook-share/experiments/plot_folium_ipyleaflet_image_overlay/</loc>
          <lastmod>2024-09-30</lastmod>
+         <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://rosatrancoso.github.io/notebook-share/experiments/plot_ipyleaflet_image_overlay/</loc>
          <lastmod>2024-09-30</lastmod>
+         <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://rosatrancoso.github.io/notebook-share/experiments/test_xarray_leaflet_simple/</loc>
          <lastmod>2024-09-30</lastmod>
+         <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://rosatrancoso.github.io/notebook-share/leafmap/01_intro/</loc>
          <lastmod>2024-09-30</lastmod>
+         <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://rosatrancoso.github.io/notebook-share/leafmap/02_basemaps/</loc>
          <lastmod>2024-09-30</lastmod>
+         <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://rosatrancoso.github.io/notebook-share/leafmap/03_heatmap/</loc>
          <lastmod>2024-09-30</lastmod>
+         <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://rosatrancoso.github.io/notebook-share/leafmap/04_wmslayer_colorbar/</loc>
          <lastmod>2024-09-30</lastmod>
+         <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://rosatrancoso.github.io/notebook-share/leafmap/05_load_raster/</loc>
          <lastmod>2024-09-30</lastmod>
+         <changefreq>daily</changefreq>
     </url>
 </urlset>
