@@ -6,6 +6,6 @@ cartopy
 scipy
 xarray
 rasterio
-# xarray_leaflet
-# rioxarray
-# rasterio
+xarray_leaflet
+rioxarray
+rasterio
