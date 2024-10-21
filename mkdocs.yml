@@ -69,6 +69,7 @@ nav:
       - template.ipynb
   - My Experiments:
       - experiments/plot_cartopy_img_tiles_examples.ipynb
+      - experiments/plot_cartopy_lambert_gridlines_dateline.ipynb
       - experiments/plot_coastlines.ipynb
       - experiments/plot_colorbar_categories.ipynb
       - experiments/plot_colorbar_common.ipynb
