@@ -45,6 +45,7 @@ plugins:
       execute_ignore: [
         "experiments/*ipynb",
         "leafmap/*ipynb",
+        "qva/*ipynb",
         # "chapter_03/folium_ipyleaflet_image_overlay.ipynb",
         # "chapter_03/plot_cartopy_img_tiles_examples.ipynb",
         # "chapter_03/plot_coastlines.ipynb",
@@ -67,6 +68,8 @@ nav:
   - Home: index.md
   - Notebook:
       - template.ipynb
+  - QVA plots:
+     - qva/plot_qva_deterministic.ipynb
   - My Experiments:
       - experiments/plot_cartopy_img_tiles_examples.ipynb
       - experiments/plot_cartopy_lambert_gridlines_dateline.ipynb
