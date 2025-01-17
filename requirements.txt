@@ -4,8 +4,11 @@ geopandas
 leafmap
 cartopy
 scipy
+netCDF4
+dask
 xarray
 rasterio
 xarray_leaflet
 rioxarray
 rasterio
+localtileserver

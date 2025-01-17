@@ -1,7 +1,7 @@
 
 A template for turning Jupyter notebooks and markdown files into a website.
 
-XX Steps to use this template:
+Steps to use this template:
 
 - Click the **Use this template** green button on this GitHub repo and fill in the details to create a repo under your account.
 - Clone the newly created repo to your computer and open it using a Text Editor (e.g., Visual Studio Code).

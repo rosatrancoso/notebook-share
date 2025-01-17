@@ -15,7 +15,7 @@ Steps to use this template:
 - Check out the website at https://username.github.io/repo-name.
 
 
-## Run locally
+## Build docs locally
 
 https://www.mkdocs.org/getting-started/
 
@@ -26,3 +26,6 @@ We still need requirements.txt for the Github Actions pip installation, but loca
     mkdocs serve
     mkdocs gh-deploy
 
+How to update conda env with more packages?
+
+    conda env update --file requirements.yml --prune

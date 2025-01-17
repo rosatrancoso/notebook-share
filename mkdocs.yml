@@ -38,21 +38,30 @@ plugins:
   - git-revision-date
   - mkdocs-jupyter:
       include_source: True
-      ignore_h1_titles: True
+      ignore_h1_titles: False
       execute: True
       allow_errors: True
       ignore: []
-      execute_ignore: [
-        "experiments/*ipynb",
+      execute_ignore: [  # cd docs; find . -name '*nb' | sort
         "leafmap/*ipynb",
+        "miscellaneous/*ipynb",
         "qva/*ipynb",
-        # "chapter_03/folium_ipyleaflet_image_overlay.ipynb",
-        # "chapter_03/plot_cartopy_img_tiles_examples.ipynb",
-        # "chapter_03/plot_coastlines.ipynb",
-        # "chapter_03/plot_dem_leaflet_image_overlay.ipynb",
-        # "chapter_03/plot_lognorm_colorbar.ipynb",
-        # "chapter_03/test_xarray_leaflet_simple.ipynb",
-        ]
+      ./leafmap/02_basemaps.ipynb
+      ./leafmap/03_heatmap.ipynb
+      ./leafmap/04_wmslayer_colorbar.ipynb
+      ./leafmap/05_load_raster.ipynb
+      ./miscellaneous/plot_cartopy_img_tiles_examples.ipynb
+      ./miscellaneous/plot_cartopy_lambert_gridlines_dateline.ipynb
+      ./miscellaneous/plot_coastlines.ipynb
+      ./miscellaneous/plot_colorbar_categories.ipynb
+      ./miscellaneous/plot_colorbar_common.ipynb
+      ./miscellaneous/plot_colorbar_lognorm.ipynb
+      ./miscellaneous/plot_image_overlay_folium_ipyleaflet.ipynb
+      ./miscellaneous/plot_image_overlay_ipyleaflet_terrain.ipynb
+      ./miscellaneous/test_xarray_leaflet_simple.ipynb
+      ./qva/plot_qva_det.ipynb
+      ./qva/plot_qva_prob.ipynb
+            ]
 
 markdown_extensions:
   - attr_list
@@ -66,28 +75,24 @@ extra:
 
 nav:
   - Home: index.md
-  - Notebook:
-      - template.ipynb
-  - QVA plots:
-     - qva/plot_qva_det.ipynb
-     - qva/plot_qva_prob.ipynb
-  - My Experiments:
-      - experiments/plot_cartopy_img_tiles_examples.ipynb
-      - experiments/plot_cartopy_lambert_gridlines_dateline.ipynb
-      - experiments/plot_coastlines.ipynb
-      - experiments/plot_colorbar_categories.ipynb
-      - experiments/plot_colorbar_common.ipynb
-      - experiments/plot_colorbar_lognorm.ipynb
-      - experiments/plot_folium_ipyleaflet_image_overlay.ipynb
-      - experiments/plot_ipyleaflet_image_overlay.ipynb
-      - experiments/test_xarray_leaflet_simple.ipynb
   - Leafmap:
-      - leafmap/01_intro.ipynb
       - leafmap/02_basemaps.ipynb
       - leafmap/03_heatmap.ipynb
       - leafmap/04_wmslayer_colorbar.ipynb
       - leafmap/05_load_raster.ipynb
-
+  - Miscellaneous:
+      - ./miscellaneous/plot_cartopy_img_tiles_examples.ipynb
+      - ./miscellaneous/plot_cartopy_lambert_gridlines_dateline.ipynb
+      - ./miscellaneous/plot_coastlines.ipynb
+      - ./miscellaneous/plot_colorbar_categories.ipynb
+      - ./miscellaneous/plot_colorbar_common.ipynb
+      - ./miscellaneous/plot_colorbar_lognorm.ipynb
+      - ./miscellaneous/plot_image_overlay_folium_ipyleaflet.ipynb
+      - ./miscellaneous/plot_image_overlay_ipyleaflet_terrain.ipynb
+      - ./miscellaneous/test_xarray_leaflet_simple.ipynb
+  - QVA plots:
+     - qva/plot_qva_det.ipynb
+     - qva/plot_qva_prob.ipynb
   #- Blog: https://blog.gishub.org
   #- YouTube Channel: https://youtube.com/@giswqs
   - Report Issues: https://github.com/rosatrancoso/notebook-share/issues
