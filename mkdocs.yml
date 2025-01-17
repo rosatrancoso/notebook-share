@@ -69,7 +69,8 @@ nav:
   - Notebook:
       - template.ipynb
   - QVA plots:
-     - qva/plot_qva_deterministic.ipynb
+     - qva/plot_qva_det.ipynb
+     - qva/plot_qva_prob.ipynb
   - My Experiments:
       - experiments/plot_cartopy_img_tiles_examples.ipynb
       - experiments/plot_cartopy_lambert_gridlines_dateline.ipynb
