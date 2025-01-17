@@ -53,7 +53,7 @@ plugins:
       ./miscellaneous/plot_cartopy_img_tiles_examples.ipynb
       ./miscellaneous/plot_cartopy_lambert_gridlines_dateline.ipynb
       ./miscellaneous/plot_coastlines.ipynb
-      ./miscellaneous/plot_colorbar_categories.ipynb
+      ./miscellaneous/plot_colorbar_discrete.ipynb
       ./miscellaneous/plot_colorbar_common.ipynb
       ./miscellaneous/plot_colorbar_lognorm.ipynb
       ./miscellaneous/plot_image_overlay_folium_ipyleaflet.ipynb
@@ -84,12 +84,12 @@ nav:
       - ./miscellaneous/plot_cartopy_img_tiles_examples.ipynb
       - ./miscellaneous/plot_cartopy_lambert_gridlines_dateline.ipynb
       - ./miscellaneous/plot_coastlines.ipynb
-      - ./miscellaneous/plot_colorbar_categories.ipynb
+      - ./miscellaneous/plot_colorbar_discrete.ipynb
       - ./miscellaneous/plot_colorbar_common.ipynb
-      - ./miscellaneous/plot_colorbar_lognorm.ipynb
+      # - ./miscellaneous/plot_colorbar_lognorm.ipynb
       - ./miscellaneous/plot_image_overlay_folium_ipyleaflet.ipynb
-      - ./miscellaneous/plot_image_overlay_ipyleaflet_terrain.ipynb
-      - ./miscellaneous/test_xarray_leaflet_simple.ipynb
+      # - ./miscellaneous/plot_image_overlay_ipyleaflet_terrain.ipynb
+      # - ./miscellaneous/test_xarray_leaflet_simple.ipynb
   - QVA plots:
      - qva/plot_qva_det.ipynb
      - qva/plot_qva_prob.ipynb
