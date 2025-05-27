@@ -43,24 +43,26 @@ plugins:
       allow_errors: True
       ignore: []
       execute_ignore: [  # cd docs; find . -name '*nb' | sort
+        "hydrology/*ipynb",
         "leafmap/*ipynb",
         "miscellaneous/*ipynb",
         "qva/*ipynb",
-      ./leafmap/02_basemaps.ipynb
-      ./leafmap/03_heatmap.ipynb
-      ./leafmap/04_wmslayer_colorbar.ipynb
-      ./leafmap/05_load_raster.ipynb
-      ./miscellaneous/plot_cartopy_img_tiles_examples.ipynb
-      ./miscellaneous/plot_cartopy_lambert_gridlines_dateline.ipynb
-      ./miscellaneous/plot_coastlines.ipynb
-      ./miscellaneous/plot_colorbar_discrete.ipynb
-      ./miscellaneous/plot_colorbar_common.ipynb
-      ./miscellaneous/plot_colorbar_lognorm.ipynb
-      ./miscellaneous/plot_image_overlay_folium_ipyleaflet.ipynb
-      ./miscellaneous/plot_image_overlay_ipyleaflet_terrain.ipynb
-      ./miscellaneous/test_xarray_leaflet_simple.ipynb
-      ./qva/plot_qva_det.ipynb
-      ./qva/plot_qva_prob.ipynb
+      # ./leafmap/02_basemaps.ipynb
+      # ./leafmap/03_heatmap.ipynb
+      # ./leafmap/04_wmslayer_colorbar.ipynb
+      # ./leafmap/05_load_raster.ipynb
+      # ./miscellaneous/plot_cartopy_img_tiles_examples.ipynb
+      # ./miscellaneous/plot_cartopy_lambert_gridlines_dateline.ipynb
+      # ./miscellaneous/plot_coastlines.ipynb
+      # ./miscellaneous/plot_colorbar_discrete.ipynb
+      # ./miscellaneous/plot_colorbar_common.ipynb
+      # ./miscellaneous/plot_colorbar_lognorm.ipynb
+      # ./miscellaneous/plot_image_overlay_folium_ipyleaflet.ipynb
+      # ./miscellaneous/plot_image_overlay_ipyleaflet_terrain.ipynb
+      # ./miscellaneous/test_xarray_leaflet_simple.ipynb
+      # ./qva/plot_qva_det.ipynb
+      # ./qva/plot_qva_prob.ipynb
+      # ./hydrology/get_basin_reporoa.ipynb
             ]
 
 markdown_extensions:
@@ -75,6 +77,8 @@ extra:
 
 nav:
   - Home: index.md
+  - Hydrology:
+      - hydrology/get_basin_reporoa.ipynb
   - Leafmap:
       - leafmap/02_basemaps.ipynb
       - leafmap/03_heatmap.ipynb
@@ -93,6 +97,7 @@ nav:
   - QVA plots:
      - qva/plot_qva_det.ipynb
      - qva/plot_qva_prob.ipynb
+
   #- Blog: https://blog.gishub.org
   #- YouTube Channel: https://youtube.com/@giswqs
   - Report Issues: https://github.com/rosatrancoso/notebook-share/issues
