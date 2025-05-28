@@ -43,10 +43,12 @@ plugins:
       allow_errors: True
       ignore: []
       execute_ignore: [  # cd docs; find . -name '*nb' | sort
+        "geemap/*ipynb",
         "hydrology/*ipynb",
         "leafmap/*ipynb",
         "miscellaneous/*ipynb",
         "qva/*ipynb",
+
       # ./leafmap/02_basemaps.ipynb
       # ./leafmap/03_heatmap.ipynb
       # ./leafmap/04_wmslayer_colorbar.ipynb
@@ -84,6 +86,8 @@ nav:
       - leafmap/03_heatmap.ipynb
       - leafmap/04_wmslayer_colorbar.ipynb
       - leafmap/05_load_raster.ipynb
+  - GEEmap:
+      - geemap/landuse_app.ipynb 
   - Miscellaneous:
       - ./miscellaneous/plot_cartopy_img_tiles_examples.ipynb
       - ./miscellaneous/plot_cartopy_lambert_gridlines_dateline.ipynb
